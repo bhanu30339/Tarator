@@ -328,7 +328,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       {/* Testimonials Section */}
       <section className="section-padding bg-cream">
         <div className="container-custom">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8">
             <h2 className="text-5xl md:text-4xl text-primary mb-4">
               Our Customers
             </h2>
