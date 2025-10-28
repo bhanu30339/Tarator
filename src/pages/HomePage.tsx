@@ -374,7 +374,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
           className="relative h-80 bg-center mb-16"
         >
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-center text-white">
+            <div className="text-center text-black">
               <h1 className="text-5xl md:text-6xl font-bold mb-4">Contact Us</h1>
               <p className="text-xl">We'd Love to Hear From You</p>
             </div>
