@@ -332,7 +332,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
             <h2 className="text-5xl md:text-6xl text-primary mb-4">
               Our Customers
             </h2>
-            <h3 className="text-4xl font-italic accent-text">
+            <h3 className="text-4xl italic accent-text">
               can't get enough of us.
             </h3>
           </div>
