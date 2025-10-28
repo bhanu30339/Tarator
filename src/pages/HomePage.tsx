@@ -383,7 +383,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
 
         <div className="section-padding">
           <div className="container-custom">
-            <div className="grid md:grid-cols-2 gap-12 mb-16">
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div>
                 <h2 className="text-4xl font-bold text-primary mb-8">
                   Get In Touch
