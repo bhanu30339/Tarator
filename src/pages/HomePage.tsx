@@ -372,9 +372,6 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       <section id="contact" className="bg-cream min-h-screen pt-16">
         <div
           className="relative h-80 bg-cover bg-center mb-16"
-          style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=1920)',
-          }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
