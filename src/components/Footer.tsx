@@ -4,7 +4,7 @@ interface FooterProps {
 
 export default function Footer({ onNavigate }: FooterProps) {
   return (
-    <footer className="bg-[#6B3E3A] text-white">
+    <footer className=" text-white" style={{ backgroundColor: "#591B1B" }}>
       <div className="container-custom py-12">
         <div className="text-center mb-12">
           <p className="text-base leading-relaxed max-w-4xl mx-auto text-gray-200">
