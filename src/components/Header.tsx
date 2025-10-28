@@ -33,7 +33,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
         style={{ backgroundColor: "#591B1B" }} >
         <div className="container-custom py-3">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-18">
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4" />
                 <span className="text-sm">MON-FRI 7:00AM - 3:00PM</span>
