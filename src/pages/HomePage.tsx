@@ -369,7 +369,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className=" min-h-screen pt-16">
+      <section id="contact" className=" min-h-screen pt-8">
         <div
           className="relative h-80 bg-center mb-8"
         >
