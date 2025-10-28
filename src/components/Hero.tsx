@@ -55,7 +55,7 @@ export default function Hero({ onNavigate }: HeroProps) {
         <div
           className="relative h-[600px] bg-cover bg-center overflow-hidden group"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/1860208/pexels-photo-1860208.jpeg?auto=compress&cs=tinysrgb&w=800)',
+            backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3-zEgS_GH-oo_N3DSnSqIj7r6vonc1sT_iQ&s)',
           }}
         >
           <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"></div>
