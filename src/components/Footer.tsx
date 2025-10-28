@@ -1,82 +1,63 @@
-import { Facebook, Instagram, MapPin } from 'lucide-react';
-
 interface FooterProps {
   onNavigate: (page: string) => void;
 }
 
 export default function Footer({ onNavigate }: FooterProps) {
   return (
-    <footer className="bg-footer text-white">
-      <div className="container-custom py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">T</span>
-              </div>
-              <span className="text-xl font-bold">Tarator Australia</span>
+    <footer className="bg-[#6B3E3A] text-white">
+      <div className="container-custom py-12">
+        <div className="text-center mb-12">
+          <p className="text-base leading-relaxed max-w-4xl mx-auto text-gray-200">
+            At Europa Pizza, we draw inspiration from the Mediterranean's rich history and flavors. Our name comes from the <span className="font-bold">legend of Europa</span>, the Tyrian princess, whisked away by Zeus in the form of a white bull. Europa's journey across the sea symbolizes adventure, culture, and connection.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+          <div className="flex justify-center md:justify-start">
+            <div className="w-24 h-24 rounded-full border-4 border-white flex items-center justify-center">
+              <svg viewBox="0 0 100 100" className="w-full h-full">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="white" strokeWidth="2"/>
+                <text x="50" y="35" textAnchor="middle" fill="white" fontSize="14" fontWeight="bold">EUROPA</text>
+                <text x="50" y="50" textAnchor="middle" fill="white" fontSize="14" fontWeight="bold">PIZZA</text>
+                <circle cx="50" cy="65" r="8" fill="white"/>
+              </svg>
             </div>
-            <p className="text-gray-400 leading-relaxed">
-              Experience the authentic flavors of the Mediterranean. Traditional recipes crafted with premium ingredients and served with passion.
+          </div>
+
+          <div>
+            <h3 className="text-xl font-bold mb-4">About</h3>
+            <p className="text-gray-200 text-sm leading-relaxed">
+              The Europa Pizza features a savory medley of flavors inspired by Europe's diverse cuisine.
             </p>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-3">
-              {['Home', 'Menu', 'About Us', 'Gallery', 'Contact'].map((link, index) => (
-                <li key={index}>
-                  <button
-                    onClick={() => onNavigate(link.toLowerCase().replace(' ', ''))}
-                    className="text-gray-400 hover:text-accent transition-colors duration-300"
-                  >
-                    {link}
-                  </button>
-                </li>
-              ))}
-            </ul>
+            <h3 className="text-xl font-bold mb-4">Contact</h3>
+            <div className="text-gray-200 text-sm space-y-2">
+              <p>75 Dorcas St, South Melbourne, 3205</p>
+              <p>P1300 827 286</p>
+              <p>info@europapizza.com.au</p>
+            </div>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
-            <div className="flex gap-4 mb-6">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-accent transition-colors duration-300"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-accent transition-colors duration-300"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="https://maps.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-accent transition-colors duration-300"
-              >
-                <MapPin className="w-5 h-5" />
-              </a>
-            </div>
-            <div className="text-gray-400">
-              <p className="mb-2">Sydney, NSW, Australia</p>
-              <p className="mb-2">Phone: +61 2 1234 5678</p>
-              <p>Email: hello@tarator.com.au</p>
+            <h3 className="text-xl font-bold mb-4">Operating Hours</h3>
+            <div className="text-gray-200 text-sm space-y-2">
+              <p>Monday: 7:00 AM - 3:00 PM</p>
+              <p>Tuesday-Sunday: 7:00 AM - 9:30 PM</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="border-t border-gray-800">
-        <div className="container-custom py-6 text-center text-gray-400 text-sm">
-          <p>&copy; 2025 Tarator Australia | All Rights Reserved.</p>
+      <div className="border-t border-white/20 relative">
+        <div className="absolute bottom-0 left-0 right-0 h-8 opacity-20"
+          style={{
+            backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 15px, rgba(255,255,255,0.3) 15px, rgba(255,255,255,0.3) 17px)',
+          }}
+        ></div>
+        <div className="container-custom py-6 text-right">
+          <p className="text-gray-300 text-sm">&copy; 2025 &copy; All Rights Reserved Europa Pizza</p>
         </div>
       </div>
     </footer>
