@@ -105,7 +105,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-primary mb-4">
-              Our <span = "acent-text">Menu</span>
+              Our <span className="accent-text">Menu</span>
             </h2>
             <p className="text-xl text-secondary max-w-2xl mx-auto">
               Crafted with passion, enjoyed in every bite. Taste the difference!
