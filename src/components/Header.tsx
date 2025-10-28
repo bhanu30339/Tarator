@@ -48,9 +48,6 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
                 ORDER NOW
               </button>
               <button className="px-6 py-2 border-2 border-white text-white rounded-full text-sm font-semibold hover:bg-white hover:text-black transition-colors duration-300">
-                UBER EATS
-              </button>
-              <button className="px-6 py-2 border-2 border-white text-white rounded-full text-sm font-semibold hover:bg-white hover:text-black transition-colors duration-300">
                 BOOK A TABLE
               </button>
             </div>
