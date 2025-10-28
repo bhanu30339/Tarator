@@ -43,7 +43,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         name: 'Truffle Funghi',
         description: 'Salsa di Pomodoro, Sliced Roasted Pumpkin, Fior di Latte, Rocket, Goat cheese & Roasted Pine nuts.Truffle oil, mushroom...',
         price: '$13.00',
-        image: 'https://images.pexels.com/photos/5949906/pexels-photo-5949906.jpeg?auto=compress&cs=tinysrgb&w=400',
+        image: 'https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/zcsmrdib/b14fd4d1-9b82-4483-9c47-69dd98a7223d.jpg',
       },
       {
         name: 'Veggie Supreme',
