@@ -289,7 +289,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-4xl  text-primary mb-4">
-              See <span className="accent-text">What's Cooking</span>
+              See <span className="italic accent-text">What's Cooking</span>
             </h2>
             <p className="text-xl text-secondary max-w-2xl mx-auto">
               Here's a peek at what we've been baking — pizzas, pastas, and smiles fresh from our kitchen.
@@ -332,7 +332,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
             <h2 className="text-5xl md:text-4xl text-primary mb-4">
               Our Customers
             </h2>
-            <h3 className="text-2xl italic accent-text">
+            <h3 className="text-3xl italic accent-text">
               can't get enough of us.
             </h3>
           </div>
