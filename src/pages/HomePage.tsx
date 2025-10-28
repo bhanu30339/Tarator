@@ -221,7 +221,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       <section className="section-padding bg-cream">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl text-primary mb-4">
+            <h2 className="text-5xl md:text-4xl text-primary mb-4">
               Why we're <span className="accent-text">the best</span>
             </h2>
             <p className="text-xl text-secondary max-w-3xl mx-auto">
