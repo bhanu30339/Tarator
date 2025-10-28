@@ -37,7 +37,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         name: 'BBQ Chicken',
         description: 'Salsa di Pomodoro, Sliced Roasted Pumpkin, Fior di Latte, Rocket, Goat cheese & Roasted Pine nuts.BBQ sauce, chicken,...',
         price: '$12.50',
-        image: 'https://images.pexels.com/photos/7353366/pexels-photo-7353366.jpeg?auto=compress&cs=tinysrgb&w=400',
+        image: 'https://media.istockphoto.com/id/531464366/photo/beef-steaks-on-the-grill.jpg?s=612x612&w=0&k=20&c=gP5ViGnJ08YTzXthSOMKzZEMqtAbcM2jhEao09W1kAQ=',
       },
       {
         name: 'Truffle Funghi',
