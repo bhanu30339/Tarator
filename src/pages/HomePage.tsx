@@ -337,7 +337,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
             </h3>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-4">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
