@@ -329,7 +329,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       <section className="section-padding bg-cream">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl text-primary mb-4">
+            <h2 className="text-5xl md:text-4xl text-primary mb-4">
               Our Customers
             </h2>
             <h3 className="text-4xl italic accent-text">
