@@ -31,7 +31,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
     <>
       <div className="fixed top-0 left-0 right-0 z-50  text-white"
         style={{ backgroundColor: "#591B1B" }} >
-        <div className="container-custom py-3">
+        <div className="container-custom py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-8">
               <div className="flex items-center gap-2">
