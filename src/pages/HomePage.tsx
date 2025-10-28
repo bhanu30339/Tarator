@@ -139,7 +139,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       <section className="section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-2xl md:text-4xl text-primary mb-4">
+            <h2 className="text-2xl md:text-6xl text-primary mb-4">
               Our <span className=" italic accent-text">Menu</span>
             </h2>
             <p className="text-xl text-secondary max-w-2xl mx-auto">
@@ -221,7 +221,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       <section className="section-padding bg-cream">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-4xl text-primary mb-4">
+            <h2 className="text-5xl md:text-6xl text-primary mb-4">
               Why we're <span className="italic accent-text">the best</span>
             </h2>
             <p className="text-xl text-secondary max-w-3xl mx-auto">
@@ -288,7 +288,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       <section className="section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-4xl  text-primary mb-4">
+            <h2 className="text-5xl md:text-6xl  text-primary mb-4">
               See <span className="italic accent-text">What's Cooking</span>
             </h2>
             <p className="text-xl text-secondary max-w-2xl mx-auto">
@@ -329,7 +329,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       <section className="section-padding bg-cream">
         <div className="container-custom">
           <div className="text-center mb-8">
-            <h2 className="text-5xl md:text-4xl text-primary mb-4">
+            <h2 className="text-5xl md:text-6xl text-primary mb-4">
               Our Customers
             </h2>
             <h3 className="text-3xl italic accent-text">
@@ -375,7 +375,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         >
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center text-black">
-              <h1 className="text-4xl md:text-4xl mb-4">Contact Us</h1>
+              <h1 className="text-4xl md:text-6xl mb-4">Contact Us</h1>
               <p className="text-xl">We'd Love to Hear From You</p>
             </div>
           </div>
