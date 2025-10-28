@@ -9,7 +9,7 @@ export default function Hero({ onNavigate }: HeroProps) {
         <div
           className="relative h-[600px] bg-cover bg-center overflow-hidden group"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=800)',
+            backgroundImage: 'url(https://images.squarespace-cdn.com/content/v1/6256abdcc2f8694421243fee/b978eb29-7f44-47b0-8c96-df76dc8426e8/IMG_6026.jpeg)',
           }}
         >
           <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"></div>
