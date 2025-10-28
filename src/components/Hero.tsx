@@ -78,7 +78,7 @@ export default function Hero({ onNavigate }: HeroProps) {
         <div
           className="relative h-[600px] bg-cover bg-center overflow-hidden group"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg?auto=compress&cs=tinysrgb&w=800)',
+            backgroundImage: 'url(https://media.istockphoto.com/id/826608862/photo/food-catering-cuisine-culinary-gourmet-buffet-party-concept.jpg?s=612x612&w=0&k=20&c=F4XhpOqYWL-15jf2IPnpfzyBOLh90ZE2rsC2DZcnCpo=)',
           }}
         >
           <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"></div>
