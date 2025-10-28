@@ -94,6 +94,14 @@
     position: relative;
   }
 
+  .font-serif {
+  font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
   .greek-border::after {
     content: '';
     position: absolute;
