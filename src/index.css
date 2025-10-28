@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,23 +10,23 @@
   }
 
   body {
-    font-family: 'Lora', serif;
-    color: #1A1A1A;
+    font-family: 'Open Sans', sans-serif;
+    color: #2C2C2C;
     background-color: #FFFFFF;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
   }
 }
 
 @layer utilities {
   .text-primary {
-    color: #1A1A1A;
+    color: #2C2C2C;
   }
 
   .text-secondary {
-    color: #3C3C3C;
+    color: #4A4A4A;
   }
 
   .text-tertiary {
@@ -34,11 +34,11 @@
   }
 
   .bg-accent {
-    background-color: #C44536;
+    background-color: #B43F3F;
   }
 
   .bg-accent-hover:hover {
-    background-color: #A63A2D;
+    background-color: #932F2F;
   }
 
   .bg-secondary-accent {
@@ -67,7 +67,7 @@
   }
 
   .btn-primary {
-    background-color: #C44536;
+    background-color: #B43F3F;
     color: #FFFFFF;
     padding: 0.875rem 2.5rem;
     border-radius: 2px;
@@ -76,17 +76,17 @@
     transition: all 0.3s ease;
     display: inline-block;
     font-size: 0.875rem;
-    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .btn-primary:hover {
-    background-color: #A63A2D;
+    background-color: #932F2F;
   }
 
   .accent-text {
-    color: #C44536;
+    color: #B43F3F;
     font-style: italic;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
   }
 
   .greek-border {
@@ -106,12 +106,12 @@
       90deg,
       transparent,
       transparent 10px,
-      #C44536 10px,
-      #C44536 12px,
+      #B43F3F 10px,
+      #B43F3F 12px,
       transparent 12px,
       transparent 14px,
-      #C44536 14px,
-      #C44536 16px
+      #B43F3F 14px,
+      #B43F3F 16px
     );
     opacity: 0.3;
   }

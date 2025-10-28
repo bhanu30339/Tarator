@@ -21,7 +21,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               </p>
               <button
                 onClick={() => onNavigate('menu')}
-                className="bg-accent hover:bg-accent/90 text-white px-8 py-3 font-medium transition-colors duration-300"
+                className="bg-[#B43F3F] hover:bg-[#932F2F] text-white px-8 py-3 font-medium transition-colors duration-300"
               >
                 Menu
               </button>
@@ -44,7 +44,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               </p>
               <button
                 onClick={() => onNavigate('menu')}
-                className="bg-accent hover:bg-accent/90 text-white px-8 py-3 font-medium transition-colors duration-300"
+                className="bg-[#B43F3F] hover:bg-[#932F2F] text-white px-8 py-3 font-medium transition-colors duration-300"
               >
                 Order Now
               </button>
@@ -67,7 +67,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               </p>
               <button
                 onClick={() => onNavigate('contact')}
-                className="bg-accent hover:bg-accent/90 text-white px-8 py-3 font-medium transition-colors duration-300"
+                className="bg-[#B43F3F] hover:bg-[#932F2F] text-white px-8 py-3 font-medium transition-colors duration-300"
               >
                 Caterly
               </button>
@@ -90,7 +90,7 @@ export default function Hero({ onNavigate }: HeroProps) {
               </p>
               <button
                 onClick={() => onNavigate('contact')}
-                className="bg-accent hover:bg-accent/90 text-white px-8 py-3 font-medium transition-colors duration-300"
+                className="bg-[#B43F3F] hover:bg-[#932F2F] text-white px-8 py-3 font-medium transition-colors duration-300"
               >
                 Book
               </button>
