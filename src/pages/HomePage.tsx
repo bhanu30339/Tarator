@@ -136,7 +136,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
   return (
     <div className="bg-white">
       {/* Menu Section */}
-      <section className="section-padding">
+      <section className="section-padding mt-[calc(52px+96px)]">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-2xl md:text-6xl text-primary mb-4">
