@@ -18,7 +18,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="flex justify-center md:justify-start">
             <div className="w-24 h-24 flex items-center justify-center">
               <img 
-                src=logo
+                src={logo}
                 alt="Tarator Logo" 
                 className="h-20 w-auto max-w-[160px]"
                 onError={(e) => {
