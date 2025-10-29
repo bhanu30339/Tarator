@@ -63,7 +63,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
       </div>
 
       <header
-        className={`fixed top-[52px] left-0 right-0 z-50 transition-all duration-300 ${
+        className={`sticky top-[52px] left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled ? 'bg-white shadow-md' : 'bg-white'
         }`}
       >
