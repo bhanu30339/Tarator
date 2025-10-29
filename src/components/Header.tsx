@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-// import logo from './images/tarator.png'; // This import is correct
-
+import logo from './images/tarator.png'; // This import is correct
 import { Menu, X, Clock, Phone } from 'lucide-react';
 
 interface HeaderProps {
