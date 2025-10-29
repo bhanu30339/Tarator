@@ -140,7 +140,7 @@ export default function MenuPage() {
   };
 
   return (
-    <div className="bg-white min-h-screen pt-24">
+    <div className="bg-white min-h-screen pt-15">
       <div className="bg-cream py-20">
         <div className="container-custom text-center">
           <h1 className="text-6xl md:text-7xl font-bold mb-6">
