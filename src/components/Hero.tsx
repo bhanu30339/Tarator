@@ -4,7 +4,7 @@ interface HeroProps {
 
 export default function Hero({ onNavigate }: HeroProps) {
   return (
-    <section className="relative pt-[100px]">
+    <section className="relative pt-[50px]">
       <div className="grid md:grid-cols-2 lg:grid-cols-4">
         <div
           className="relative h-[600px] bg-cover bg-center overflow-hidden group"
