@@ -69,7 +69,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             >
               {/* Replace the src with your actual logo path */}
               <img 
-                src="/logo.png" 
+                src="/images/tarsto.png" 
                 alt="Tarator Logo" 
                 className="h-12 w-auto" 
                 onError={(e) => {
