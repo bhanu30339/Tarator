@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from './images/tarator.png';
+import logo from './images/tarator.png'; // This import is correct
 import { Menu, X, Clock, Phone } from 'lucide-react';
 
 interface HeaderProps {
@@ -30,7 +30,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
   ];
 
   const handleLogoError = () => {
-    console.error('Logo not found at: /images/tarator.png');
+    console.error('Logo failed to load');
     setLogoError(true);
   };
 
@@ -69,14 +69,14 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
       >
         <nav className="container-custom py-4">
           <div className="flex items-center justify-between">
-            {/* Logo Section */}
+            {/* Logo Section - FIXED: Use the imported logo variable */}
             <div
               className="flex items-center cursor-pointer"
               onClick={() => onNavigate('home')}
             >
               {!logoError ? (
                 <img 
-                  src="/images/tarator.png" 
+                  src={logo} // CHANGED: Use the imported logo variable here
                   alt="Tarator Logo" 
                   className="h-12 w-auto max-w-[200px]"
                   onError={handleLogoError}
