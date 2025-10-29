@@ -8,10 +8,22 @@ export default function Footer({ onNavigate }: FooterProps) {
       <div className="container-custom py-12">
         <div className="text-center mb-12">
           <p className="text-base leading-relaxed max-w-4xl mx-auto text-gray-200">
-            Bringing the flavours of the Mediterranean to South Melbourne - Fresh, Authentic, Unforgettable.
+            
           </p>
         </div>
 
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+          <div className="flex justify-center md:justify-start">
+            <div className="w-24 h-24 rounded-full border-4 border-white flex items-center justify-center">
+              <svg viewBox="0 0 100 100" className="w-full h-full">
+                <circle cx="50" cy="50" r="48" fill="none" stroke="white" strokeWidth="2"/>
+                <text x="50" y="35" textAnchor="middle" fill="white" fontSize="14" fontWeight="bold">EUROPA</text>
+                <text x="50" y="50" textAnchor="middle" fill="white" fontSize="14" fontWeight="bold">PIZZA</text>
+                <circle cx="50" cy="65" r="8" fill="white"/>
+              </svg>
+              
+            </div>
+          </div>
 
           <div>
             <h3 className="text-xl font-bold mb-4">About</h3>
