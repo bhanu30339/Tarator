@@ -78,7 +78,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
                 <img
                   src={logo}
                   alt="Tarator Logo"
-                  className="h-19 w-auto"
+                  className="h-15 w-auto"
                   onError={handleLogoError}
                 />
               ) : (
