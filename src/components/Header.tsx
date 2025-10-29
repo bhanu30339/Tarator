@@ -9,6 +9,7 @@ interface HeaderProps {
 export default function Header({ currentPage, onNavigate }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [logoError, setLogoError] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,10 +28,15 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
     { name: 'CONTACT', id: 'contact' },
   ];
 
+  const handleLogoError = () => {
+    console.error('Logo not found at: /images/tarator.png');
+    setLogoError(true);
+  };
+
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-50  text-white"
-        style={{ backgroundColor: "#591B1B" }} >
+      <div className="fixed top-0 left-0 right-0 z-50 text-white"
+        style={{ backgroundColor: "#591B1B" }}>
         <div className="container-custom py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-8">
@@ -62,24 +68,27 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
       >
         <nav className="container-custom py-4">
           <div className="flex items-center justify-between">
-            {/* Logo Section - Replaced circle and dot with logo */}
+            {/* Logo Section */}
             <div
               className="flex items-center cursor-pointer"
               onClick={() => onNavigate('home')}
             >
-              {/* Replace the src with your actual logo path */}
-              <img 
-                src="/images/tarator.png" 
-                alt="Tarator Logo" 
-                className="h-12 w-auto" 
-                onError={(e) => {
-                  // Fallback if logo doesn't exist - shows text logo
-                  e.currentTarget.style.display = 'none';
-                  const fallback = e.currentTarget.nextSibling as HTMLElement;
-                  if (fallback) fallback.style.display = 'block';
-                }}
-              />
-              {/* Fallback text logo */}
+              {!logoError ? (
+                <img 
+                  src="/images/tarator.png" 
+                  alt="Tarator Logo" 
+                  className="h-12 w-auto max-w-[200px]"
+                  onError={handleLogoError}
+                />
+              ) : (
+                // Fallback text logo
+                <div className="flex items-center gap-2">
+                  <div className="w-12 h-12 rounded-full border-4 border-[#6B3E3A] flex items-center justify-center">
+                    <span className="text-[#6B3E3A] font-bold text-lg">T</span>
+                  </div>
+                  <span className="text-2xl font-bold text-[#6B3E3A]">TARATOR</span>
+                </div>
+              )}
             </div>
 
             <div className="hidden md:flex items-center gap-10">
