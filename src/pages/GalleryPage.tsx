@@ -1,30 +1,44 @@
 import { useState } from 'react';
 import { X } from 'lucide-react';
+import img1 from '../images/1.jpg';
+import img2 from '../images/2.jpg';
+import img3 from '../images/3.jpg';
+import img4 from '../images/4.jpg';
+import img5 from '../images/5.jpg';
+import img6 from '../images/6.jpg';
+import img7 from '../images/7.jpg';
+import img8 from '../images/8.jpg';
+import img9 from '../images/9.jpg';
+import img10 from '../images/10.jpg';
+import img11 from '../images/11.jpg';
+import img12 from '../images/12.jpg';
+import img13 from '../images/13.jpg';
+import img14 from '../images/14.jpg';
+import img15 from '../images/15.jpg';
 
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [filter, setFilter] = useState('All');
 
   const images = [
-    { url: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Food' },
-    { url: 'https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Food' },
-    { url: 'https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Interior' },
-    { url: 'https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Food' },
-    { url: 'https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Interior' },
-    { url: 'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Food' },
-    { url: 'https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Drinks' },
-    { url: 'https://images.pexels.com/photos/1407846/pexels-photo-1407846.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Drinks' },
-    { url: 'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Food' },
-    { url: 'https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Interior' },
-    { url: 'https://images.pexels.com/photos/17742866/pexels-photo-17742866.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Food' },
-    { url: 'https://images.pexels.com/photos/6275166/pexels-photo-6275166.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Food' },
-    { url: 'https://images.pexels.com/photos/7353366/pexels-photo-7353366.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Food' },
-    { url: 'https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Drinks' },
-    { url: 'https://images.pexels.com/photos/1435903/pexels-photo-1435903.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Food' },
-    { url: 'https://images.pexels.com/photos/16743486/pexels-photo-16743486.jpeg?auto=compress&cs=tinysrgb&w=800', category: 'Food' },
+    { url: img1, category: 'Food' },
+    { url: img2, category: 'Food' },
+    { url: img3, category: 'Food' },
+    { url: img4, category: 'Food' },
+    { url: img5, category: 'Food' },
+    { url: img6, category: 'Food' },
+    { url: img7, category: 'Food' },
+    { url: img8, category: 'Food' },
+    { url: img9, category: 'Food' },
+    { url: img10, category: 'Food' },
+    { url: img11, category: 'Food' },
+    { url: img12, category: 'Food' },
+    { url: img13, category: 'Food' },
+    { url: img14, category: 'Food' },
+    { url: img15, category: 'Food' },
   ];
 
-  const categories = ['All', 'Food', 'Drinks', 'Interior'];
+  const categories = ['All', 'Food'];
 
   const filteredImages = filter === 'All'
     ? images
@@ -35,7 +49,7 @@ export default function GalleryPage() {
       <div
         className="relative h-80 bg-cover bg-center mb-16"
         style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1920)',
+          backgroundImage: `url(${img1})`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">

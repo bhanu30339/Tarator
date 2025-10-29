@@ -130,6 +130,15 @@ export default function MenuPage() {
     },
   ];
 
+  const handleDownloadMenu = () => {
+    const link = document.createElement('a');
+    link.href = '/menu_compressed.pdf';
+    link.download = 'Tarator-Menu.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="bg-white min-h-screen pt-24">
       <div className="bg-cream py-20">
@@ -137,7 +146,18 @@ export default function MenuPage() {
           <h1 className="text-6xl md:text-7xl font-bold mb-6">
             Our <span className="accent-text">Menu</span>
           </h1>
-          <p className="text-xl text-secondary max-w-2xl mx-auto">Authentic Mediterranean Flavors</p>
+          <p className="text-xl text-secondary max-w-2xl mx-auto mb-6">Authentic Mediterranean Flavors</p>
+          <button
+            onClick={handleDownloadMenu}
+            className="bg-accent hover:bg-primary text-white px-8 py-3 rounded-full font-semibold transition-colors duration-300 inline-flex items-center gap-2"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download Full Menu
+          </button>
         </div>
       </div>
 
