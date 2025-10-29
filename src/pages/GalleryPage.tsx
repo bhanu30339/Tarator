@@ -45,7 +45,7 @@ export default function GalleryPage() {
     : images.filter(img => img.category === filter);
 
   return (
-    <div className="bg-cream min-h-screen pt-24">
+    <div className="bg-cream min-h-screen pt-15">
       <div
         className="relative h-80 bg-cover bg-center mb-16"
         style={{
