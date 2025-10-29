@@ -69,7 +69,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             >
               {/* Replace the src with your actual logo path */}
               <img 
-                src="/images/tarsto.png" 
+                src="/images/tarator.png" 
                 alt="Tarator Logo" 
                 className="h-12 w-auto" 
                 onError={(e) => {
@@ -80,12 +80,6 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
                 }}
               />
               {/* Fallback text logo */}
-              <div 
-                className="hidden text-2xl font-bold text-[#6B3E3A]"
-                style={{ display: 'none' }}
-              >
-                TARATOR
-              </div>
             </div>
 
             <div className="hidden md:flex items-center gap-10">
