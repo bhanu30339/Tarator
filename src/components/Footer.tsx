@@ -1,4 +1,4 @@
-import logo from "./images/tarator.png"
+import logo from '../images/tarator.png';
 interface FooterProps {
   onNavigate: (page: string) => void;
 }
