@@ -72,9 +72,7 @@ export default function ContactPage() {
                       Address
                     </h3>
                     <p className="text-secondary">
-                      123 Mediterranean Lane<br />
-                      Sydney, NSW 2000<br />
-                      Australia
+                     Ground floor 75 Dorcas Street South Melbourne, 3205
                     </p>
                   </div>
                 </div>
@@ -87,7 +85,7 @@ export default function ContactPage() {
                     <h3 className="text-xl font-semibold text-primary mb-1">
                       Phone
                     </h3>
-                    <p className="text-secondary">+61 2 1234 5678</p>
+                    <p className="text-secondary">1300 827 286</p>
                   </div>
                 </div>
 
@@ -99,7 +97,7 @@ export default function ContactPage() {
                     <h3 className="text-xl font-semibold text-primary mb-1">
                       Email
                     </h3>
-                    <p className="text-secondary">hello@tarator.com.au</p>
+                    <p className="text-secondary">info@tarator.com.au</p>
                   </div>
                 </div>
 
@@ -112,8 +110,7 @@ export default function ContactPage() {
                       Opening Hours
                     </h3>
                     <p className="text-secondary">
-                      Monday - Friday: 11:00 AM - 10:00 PM<br />
-                      Saturday - Sunday: 10:00 AM - 11:00 PM
+                     MON - FRI 7:00 AM - 3:00 PM
                     </p>
                   </div>
                 </div>
