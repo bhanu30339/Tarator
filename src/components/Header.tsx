@@ -67,7 +67,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
           isScrolled ? 'bg-white shadow-md' : 'bg-white'
         }`}
       >
-        <nav className="container-custom py-6">
+        <nav className="container-custom py-4">
           <div className="flex items-center justify-between">
             {/* Logo Section - FIXED: Use the imported logo variable */}
             <div
