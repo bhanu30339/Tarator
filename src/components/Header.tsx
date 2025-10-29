@@ -66,14 +66,15 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
               className="flex items-center gap-2 cursor-pointer"
               onClick={() => onNavigate('home')}
             >
-              {/* <div className="w-16 h-16 rounded-full border-4 border-[#6B3E3A] flex items-center justify-center">
+              <div className="w-16 h-16 rounded-full border-4 border-[#6B3E3A] flex items-center justify-center">
                 <svg viewBox="0 0 100 100" className="w-full h-full">
                   <circle cx="50" cy="50" r="48" fill="none" stroke="#6B3E3A" strokeWidth="2"/>
                   <text x="50" y="40" textAnchor="middle" fill="#6B3E3A" fontSize="12" fontWeight="bold">TARATOR</text>
                   <circle cx="50" cy="60" r="8" fill="#6B3E3A"/>
                 </svg>
               </div>
-            </div> */}
+            </div>
+            
 
               
             <div className="hidden md:flex items-center gap-10">
