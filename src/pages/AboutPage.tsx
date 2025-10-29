@@ -2,7 +2,7 @@ import { Users, Award, Globe, Heart } from 'lucide-react';
 
 export default function AboutPage() {
   return (
-    <div className="bg-cream min-h-screen pt-24">
+    <div className="bg-cream min-h-screen pt-15">
       <div
         className="relative h-96 bg-cover bg-center mb-16"
         style={{
