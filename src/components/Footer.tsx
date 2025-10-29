@@ -8,7 +8,7 @@ export default function Footer({ onNavigate }: FooterProps) {
       <div className="container-custom py-12">
         <div className="text-center mb-12">
           <p className="text-base leading-relaxed max-w-4xl mx-auto text-gray-200">
-            At Europa Pizza, we draw inspiration from the Mediterranean's rich history and flavors. Our name comes from the <span className="font-bold">legend of Europa</span>, the Tyrian princess, whisked away by Zeus in the form of a white bull. Europa's journey across the sea symbolizes adventure, culture, and connection.
+            Bringing the flavours of the Mediterranean to South Melbourne - Fresh, Authentic, Unforgettable.
           </p>
         </div>
 
