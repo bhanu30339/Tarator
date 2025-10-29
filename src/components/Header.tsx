@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-// import logo from './images/tarator.png'; // This import is correct
-
+import logo from '../images/tarator.png';
 import { Menu, X, Clock, Phone } from 'lucide-react';
 
 interface HeaderProps {
@@ -76,10 +75,10 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
               onClick={() => onNavigate('home')}
             >
               {!logoError ? (
-                <img 
-                  src={logo} // CHANGED: Use the imported logo variable here
-                  alt="Tarator Logo" 
-                  className="h-12 w-auto max-w-[200px]"
+                <img
+                  src={logo}
+                  alt="Tarator Logo"
+                  className="h-16 w-auto"
                   onError={handleLogoError}
                 />
               ) : (
