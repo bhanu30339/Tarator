@@ -62,21 +62,32 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
       >
         <nav className="container-custom py-4">
           <div className="flex items-center justify-between">
+            {/* Logo Section - Replaced circle and dot with logo */}
             <div
-              className="flex items-center gap-2 cursor-pointer"
+              className="flex items-center cursor-pointer"
               onClick={() => onNavigate('home')}
             >
-              <div className="w-16 h-16 rounded-full border-4 border-[#6B3E3A] flex items-center justify-center">
-                <svg viewBox="0 0 100 100" className="w-full h-full">
-                  <circle cx="50" cy="50" r="48" fill="none" stroke="#6B3E3A" strokeWidth="2"/>
-                  <text x="50" y="40" textAnchor="middle" fill="#6B3E3A" fontSize="12" fontWeight="bold">TARATOR</text>
-                  <circle cx="50" cy="60" r="8" fill="#6B3E3A"/>
-                </svg>
+              {/* Replace the src with your actual logo path */}
+              <img 
+                src="/logo.png" 
+                alt="Tarator Logo" 
+                className="h-12 w-auto" 
+                onError={(e) => {
+                  // Fallback if logo doesn't exist - shows text logo
+                  e.currentTarget.style.display = 'none';
+                  const fallback = e.currentTarget.nextSibling as HTMLElement;
+                  if (fallback) fallback.style.display = 'block';
+                }}
+              />
+              {/* Fallback text logo */}
+              <div 
+                className="hidden text-2xl font-bold text-[#6B3E3A]"
+                style={{ display: 'none' }}
+              >
+                TARATOR
               </div>
             </div>
-            
 
-              
             <div className="hidden md:flex items-center gap-10">
               {navLinks.map((link) => (
                 <button
