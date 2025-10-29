@@ -135,8 +135,8 @@ export default function HomePage({ onNavigate }: HomePageProps) {
 
   return (
     <div className="bg-white">
-      {/* Menu Section */}
-      <section className="section-padding mt-[calc(52px+96px)]">
+      {/* Menu Section - Fixed spacing */}
+      <section className="section-padding mt-32">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-2xl md:text-6xl text-primary mb-4">
@@ -369,10 +369,8 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className=" min-h-screen pt-8">
-        <div
-          className="relative h-80 bg-center mb-8"
-        >
+      <section id="contact" className="min-h-screen">
+        <div className="relative h-80 bg-center">
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center text-black">
               <h1 className="text-4xl md:text-6xl mb-4">Contact Us</h1>
@@ -399,9 +397,8 @@ export default function HomePage({ onNavigate }: HomePageProps) {
                         Address
                       </h3>
                       <p className="text-secondary">
-                        123 Mediterranean Lane<br />
-                        Sydney, NSW 2000<br />
-                        Australia
+                        75 Dorcas St, South Melbourne, 3205<br />
+                        Victoria, Australia
                       </p>
                     </div>
                   </div>
@@ -414,7 +411,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
                       <h3 className="text-xl font-semibold text-primary mb-1">
                         Phone
                       </h3>
-                      <p className="text-secondary">+61 2 1234 5678</p>
+                      <p className="text-secondary">1300 827 286</p>
                     </div>
                   </div>
 
@@ -426,7 +423,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
                       <h3 className="text-xl font-semibold text-primary mb-1">
                         Email
                       </h3>
-                      <p className="text-secondary">hello@tarator.com.au</p>
+                      <p className="text-secondary">info@taratorcafe.com.au</p>
                     </div>
                   </div>
 
@@ -439,8 +436,8 @@ export default function HomePage({ onNavigate }: HomePageProps) {
                         Opening Hours
                       </h3>
                       <p className="text-secondary">
-                        Monday - Friday: 11:00 AM - 10:00 PM<br />
-                        Saturday - Sunday: 10:00 AM - 11:00 PM
+                        Monday - Friday: 7:00 AM - 3:00 PM<br />
+                        Saturday - Sunday: Closed
                       </p>
                     </div>
                   </div>
@@ -500,7 +497,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-accent transition-colors"
-                      placeholder="+61 2 1234 5678"
+                      placeholder="1300 827 286"
                     />
                   </div>
 
@@ -576,7 +573,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
 
             <div className="h-[500px] rounded-lg overflow-hidden shadow-2xl">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.694881401849!2d151.20929931521054!3d-33.86882098065158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae401e8b983f%3A0x5017d681632bfc0!2sCircular%20Quay%2C%20Sydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.390377034039!2d144.955651315324!3d-37.833774979743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d6e5c1b1b1b%3A0x7c0f1e3d3d3d3d3d!2s75%20Dorcas%20St%2C%20South%20Melbourne%20VIC%203205%2C%20Australia!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
